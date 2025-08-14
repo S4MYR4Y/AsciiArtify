@@ -31,6 +31,7 @@ Creating cluster "argocd" ...
 ✓ Installing StorageClass 💾 
 ✓ Joining worker nodes 🚜
 Set kubectl context to "kind-argocd"
+
 Ви можете скористатися вашим cluster with:
 
 kubectl cluster-info --context kind-argocd
