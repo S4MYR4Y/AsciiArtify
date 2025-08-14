@@ -22,20 +22,20 @@ kind create cluster --name argocd --config kind-config.yaml
 
   Результат:
 
-##Creating cluster "argocd" ... 
-##✓ Ensuring node image (kindest/node:v1.33.1) 🖼 
-##✓ Preparing nodes 📦 📦 📦 📦 
-##✓ Writing configuration 📜 
-##✓ Starting control-plane 🕹️ 
-##✓ Installing CNI 🔌 
-##✓ Installing StorageClass 💾 
-##✓ Joining worker nodes 🚜
-##Set kubectl context to "kind-argocd"
-##Ви можете скористатися вашим cluster with:
+Creating cluster "argocd" ... 
+✓ Ensuring node image (kindest/node:v1.33.1) 🖼 
+✓ Preparing nodes 📦 📦 📦 📦 
+✓ Writing configuration 📜 
+✓ Starting control-plane 🕹️ 
+✓ Installing CNI 🔌 
+✓ Installing StorageClass 💾 
+✓ Joining worker nodes 🚜
+Set kubectl context to "kind-argocd"
+Ви можете скористатися вашим cluster with:
 
-##kubectl cluster-info --context kind-argocd
+kubectl cluster-info --context kind-argocd
 
-##Have a nice day! 👋
+Have a nice day! 👋
 
 3. Встановимо ArgoCD
 ```bash
@@ -51,7 +51,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
   Зайдемо в ArgoCD через https://localhost:8080
 
-Ми можемо помітити, що браузер відображає домен localhost ненадійним. Щоб продовжити, потрібно вибрати нижче увійти (небезпечно)
+  Ми можемо помітити, що браузер відображає домен localhost ненадійним. Щоб продовжити, потрібно вибрати нижче увійти (небезпечно)
 <img width="1004" height="586" alt="Image" src="https://github.com/user-attachments/assets/777cdd44-a0f2-488f-9d1b-350ae5417b0d" />
 
 <img width="884" height="339" alt="Image" src="https://github.com/user-attachments/assets/3624c2f4-0849-4d41-88f6-bd6c9a616d02" />
