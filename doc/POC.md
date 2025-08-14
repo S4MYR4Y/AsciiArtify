@@ -21,8 +21,9 @@ kind create cluster --name argocd --config kind-config.yaml
 ```
 
   Результат:
-
+```bash
 Creating cluster "argocd" ... 
+
 ✓ Ensuring node image (kindest/node:v1.33.1) 🖼 
 ✓ Preparing nodes 📦 📦 📦 📦 
 ✓ Writing configuration 📜 
@@ -37,6 +38,7 @@ Set kubectl context to "kind-argocd"
 kubectl cluster-info --context kind-argocd
 
 Have a nice day! 👋
+```
 
 3. Встановимо ArgoCD
 ```bash
